@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>BERANDA</title>
+    <meta charset="utf-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1">
+    <!-- CSS -->
+    <style>
+        /* All Element di halaman ini */
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        /* Header Image awan */
+        .header {
+            background: url('./assets/image/cumulus-cloud.jpg');
+            background-repeat: no-repeat;
+            padding: 20px;
+            text-align: center;
+            margin: 0;
+        }
+
+        .header h1 {
+            color: white;
+            text-shadow: 2px 2px 5px red;
+        }
+
+        /* Navigation Bar */
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        .navbar li {
+            float: left;
+        }
+
+        .navbar .udinus {
+            display: block;
+            width: 46px;
+            height: 46px;
+            margin-left: 10px;
+            padding: 0;
+        }
+
+        .navbar .logo {
+            width: 100%;
+            height: 100%;
+        }
+
+        .navbar li .text {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .navbar li .beranda {
+            margin-left: 20px;
+        }
+
+        .navbar li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .navbar .active {
+            background-color: #2d84b6;
+        }
+
+        /* Konten */
+        .content {
+            margin: 0px 10px;
+        }
+
+        .content img{
+            display: block;
+            width: 200px;
+            height: 200px;
+            margin-top: 10px;
+        }
+
+        /* Ngeset asset */
+        .foto img {
+            display: block;
+            width: 600px;
+            height: 300px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Start Header -->
+    <a name="atas">
+        <div class="header">
+            <h1>
+                DINUS STUDENT BLOG
+            </h1>
+        </div>
+        <!-- End Header -->
+
+        <!-- Start Navbar -->
+        <nav class="navbar">
+            <ul>
+                <li><a class="udinus" href="https://dinus.ac.id/"><img class="logo" src="./assets/image/udinus.jpg"></a>
+                </li>
+                <li><a class="text beranda" href="index.html">Beranda</a></li>
+                <li><a class="active text" href="profile.html">Profile</a></li>
+                <li><a class="text" href="artikel.html">Artikel</a></li>
+                <li><a class="text" href="buku_tamu.html">Buku Tamu</a></li>
+            </ul>
+        </nav>
+        <!-- End Navbar -->
+
+        <!--Start Konten-->
+        <div class="content">
+            <img src="./assets/image/profile-image.jpeg" alt="Ryandhika Profile">
+            <h1>Ryandhika Bintang Abiyyi</h1>
+            <p class="title">A11.2021.13498</p>
+            <p class="title">MA1108</p>
+            <p class="title">Kudus</p>
+            <p class="title">Mendengarkan Musik</p>
+            <p class="title">Menjadi seseorang yang tangguh, berbakat atau ahli pada satu bidang tertentu, serta
+                bertaqwa pada Tuhan. Dengan cara belajar yang giat dan selalu mencari suatu hal yang baru</p>
+            <p class="title">Menjadi Orang Sukses</p>
+            <p><button>Contact</button></p>
+        </div>
+        <!--End Konten-->
+
+        <!-- Start Footer -->
+        <div class="footer">
+            <br>
+            <hr>
+            <p align="center">
+                <b>
+                    Copyright @2021 Udinus - Ryandhika
+                </b>
+            </p>
+            <p align="right">
+                <a href="#atas">
+                    Top Page
+                </a>
+            </p>
+        </div>
+        <!-- End Footer -->
+</body>
+
+</html>
